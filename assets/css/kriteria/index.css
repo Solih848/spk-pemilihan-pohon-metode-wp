@@ -1,0 +1,109 @@
+* {
+    /* font-family: Poppins, sans-serif; */
+    padding: 0;
+    margin: 0;
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #111111;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-weight: 900;
+}
+
+table,
+th,
+td {
+    border: 1px solid #dee2e6;
+    text-align: center;
+    /* Konten tabel rata tengah */
+}
+
+th,
+td {
+    padding: 12px;
+}
+
+th {
+    background-color: #f1f1f1;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.action-links a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.action-links a[href*="edit"] {
+    background-color: #28a745;
+    /* Warna hijau untuk tombol edit */
+}
+
+.action-links a.delete-link {
+    background-color: #dc3545;
+    /* Red for delete button */
+}
+
+.action-links a:hover {
+    opacity: 0.8;
+    /* Efek hover untuk tombol aksi */
+}
