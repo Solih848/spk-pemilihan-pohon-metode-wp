@@ -21,10 +21,13 @@
         <div class="menu-content">
             <ul class="menu-items">
                 <li class="item">
-                    <a href="<?php echo base_url('pohon'); ?>">Home</a>
+                    <a href="<?php echo base_url('dashboard'); ?>">Dashboard</a>
                 </li>
                 <li class="item">
                     <a href="<?php echo site_url('kriteria'); ?>">Kriteria</a>
+                </li>
+                <li class="item">
+                    <a href="<?php echo base_url('pohon'); ?>">Alternatif</a>
                 </li>
                 <li class="item">
                     <a href="<?php echo site_url('wp'); ?>">Hasil</a>
