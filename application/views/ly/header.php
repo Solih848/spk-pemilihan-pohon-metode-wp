@@ -37,6 +37,7 @@
 
     <nav class="navbar">
         <i class="fa-solid fa-bars" id="sidebar-close"></i>
+        <a href="<?php echo site_url('auth/logout'); ?>" class="logout-link">Logout</a>
     </nav>
 
     <main class="main">
