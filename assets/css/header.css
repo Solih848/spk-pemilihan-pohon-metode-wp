@@ -124,6 +124,11 @@
     font-size: 25px;
     background: #11101d;
     cursor: pointer;
+        display: flex;
+            justify-content: space-between;
+            /* Menyebar elemen */
+            align-items: center;
+            /* Vertikal tengah */
 }
 
 .navbar #sidebar-close {
@@ -144,4 +149,21 @@
     color: #ffffff;
     font-size: 40px;
     text-align: center;
+}
+.logout-link {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 8px;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    font-size: 20px;
+}
+
+.logout-link:hover {
+    background-color: #b32a00;
 }
